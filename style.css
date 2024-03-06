@@ -1,0 +1,101 @@
+body{
+    background-color: #030637;
+    margin: 0px;
+}
+nav ul {
+    background-color: black;
+    margin-top: 0px;
+    padding-bottom: 15px;
+    list-style-type: none;
+    margin-bottom: 0px;
+    height: 30px;
+}
+li {
+    position: relative;
+    left: 600px;
+    display: inline-block;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+ nav ul li a {
+    text-decoration: none;
+    color: azure;
+    background-color: #030637;
+}
+nav ul li a:hover {
+    text-decoration: none;
+    color: azure;
+    background-color: red;
+}
+h1 {
+    text-align: center;
+    color: azure;
+}
+.ff {
+    margin-left: 20px;
+}
+article {
+    color: azure;
+    margin: 20px;
+}
+nav div {
+    background-color: #22266b;
+    border-color: #22266b;
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+    border: #22266b solid 10px;
+    
+}
+.ii {
+    position: absolute;
+    display: block;
+    margin-left: 100px;
+    margin-bottom: 300px;
+}
+.sec a:link {
+    opacity: 0;
+    transition: transform 0.5s
+}
+.sec a:hover {
+    opacity: 2;
+    transform: scale(2.5);
+
+}
+
+.for {
+    transition: transform 0.5s
+}
+.for:hover {
+    transform: scale(1.2);
+}
+nav div a:link {
+    color: aliceblue;
+}
+nav div a.hover {
+    color: aliceblue;
+}
+.first {
+    text-align: center;
+}
+.second {
+    display: inline-block;
+}
+.second {
+    color: aliceblue;
+    padding: 20px 30px;
+    text-decoration: none;
+    border: white solid 2px;
+    border-radius: 50px;
+}
+footer .first .second .ddd a:link {
+    background-color: black;
+}
+footer .first .second .ddd a:hover {
+    background-color: azure;
+}
+
