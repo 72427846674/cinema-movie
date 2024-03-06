@@ -7,6 +7,7 @@
     <meta name="about" content="Some movies">
     <title>cinema treasure</title>
     <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <style>
         .sea {
@@ -21,55 +22,56 @@
     <header>
         <nav>
             <ul>
-                <li>
-                    <a href="index.html">home🏠</a>
-                </li>
-                  <li>
-                    <a href="movies.html">movies📹</a>
-                  </li>  
+                <li><a href="index.html"><i class="fas fa-home"></i>خانه</a></li>
+                <li><a href="movies.html"><i class="fas fa-film"></i> فیلم ها</a></li>
             </ul>
         </nav>
-     <h1>Best movie</h1>
     </header>
-
-    <section class="ff">
-        <img src="anabel.jpg" alt="picture" width="1465" height="600">
-    </section>
-
-    <article>
+<main>
+    <section class="featured">
+        <h1>Best movie</h1>
+        <img src="anabel.jpg" alt="Featured Picture">
         <p>John Form (Ward Horton) thinks he's found the perfect gift for his expectant wife,<br>
              Mia (Annabelle Wallis) : a vintage doll in a beautiful white dress.<br>
               However, the couple's delight doesn't last long: One terrible night,<br>
               devil worshippers invade their home and launch a violent attack against the couple.<br>
                When the cultists try to summon a demon, they smear a bloody rune on the nursery wall and drip blood on Mia's doll,<br>
-                thereby turning the former object of beauty into a conduit for ultimate evil.</p>
-    </article>
-     <br><br>
-        <h1>searching movies
- </h1>
-    <nav>
-        <div class="for">
-            <section class="sec">
-                <img src="axer.webp" alt="pic" width="250" height="200">
-                <a href="movie details.html" class="ii" style="top: 100px;">⏸</a>
-            </section>
-            <a href="movie details.html" class="sea">introduce the movie...</a>
-        </div>
-        <div class="for">
-            <section class="sec">
-                <img src="anabel.jpg" alt="pic" width="250" height="200">
-            <a href="movie details.html" class="ii" style="top: 100px;">⏸</a>
-            </section>
-            <a href="movie details.html" class="sea">introduce the movie...</a>
-        </div>
-        <div class="for">
-            <section class="sec">
-                <img src="exor.jpg" alt="pic" width="250" height="200">
-                <a href="movie details.html" class="ii" style="top: 100px;">⏸</a>
-            </section>
-            <a href="movie details.html" class="sea">introduce the movie...</a>
-        </div>
-    </nav>
+                thereby turning the former object of beauty into a conduit for ultimate evil.
+        </p>
+    </section>
+ 
+   <section class="movies">
+
+        <h1>searching movies</h1>
+    
+        <div class="movie-grid">
+            <div class="movie-item">
+                <img src="axer.webp" alt="pic">
+                <a href="movie details.html">
+                 <h3>Movie Title</h3>
+                  <i class="fas fa-play-circle play-icon"></i>
+                </a>
+            </div>
+
+              <div class="movie-item">
+                <img src="axer.webp" alt="pic">
+                <a href="movie details.html">
+                 <h3>Movie Title</h3>
+                  <i class="fas fa-play-circle play-icon"></i>
+                </a>
+              </div>
+
+              <div class="movie-item">
+                <img src="axer.webp" alt="pic">
+                <a href="movie details.html">
+                 <h3>Movie Title</h3>
+                  <i class="fas fa-play-circle play-icon"></i>
+                </a>
+             </div>
+         </div>
+       
+    </section>
+</main>
     <footer>
         &#169;2024 cinema treasure
     </footer>
